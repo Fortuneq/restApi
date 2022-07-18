@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
 
 func main(){
-	fmt.Println("Hello")
+	s := apiserver.New()
+	if err := s.s
 }
