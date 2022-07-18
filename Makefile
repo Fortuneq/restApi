@@ -5,4 +5,6 @@ build:
 
 run:
 	go run ./cmd/apiserver
+test:
+	go test -v -race ./...
 .DEFAULY_GOAL := build
